@@ -1,5 +1,5 @@
 # OpenVino-Face-Recognition
-[image](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a677a054a1484609bb0b070727fa0289~tplv-k3u1fbpfcp-zoom-crop-mark:4536:4536:4536:2553.image?)
+[image](https://community.intel.com/t5/image/serverpage/image-id/28050i08B26779F34CFE9B?v=v2)
 ## Introduction
 - [```OpenVINO```](https://docs.openvino.ai/2023.1/home.html) toolkit (yoki Intel Distribution of ```OpenVINO``` Toolkit) - bu dasturchilarga turli xil video tizimlarda foydalanish uchun yuqori samarali yechimlarni ishlab chiqishni tezlashtirishga yordam beradigan ochiq va bepul vositalar to'plami.
   * Computer Visionni to'liq qo'llab-quvvatlaydi
