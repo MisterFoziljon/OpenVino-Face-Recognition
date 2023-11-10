@@ -15,6 +15,8 @@
    - Face Detection
    - Face Landmarks Detection
    - Face Reidentificaton
+![image](https://github.com/MisterFoziljon/OpenVino-Face-Recognition/blob/main/source/face.jpg)
+
 
 ## Requirements
 * Microsoft Visual Studio 2022
