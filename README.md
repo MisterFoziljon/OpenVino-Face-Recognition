@@ -1,5 +1,5 @@
 # OpenVino-Face-Recognition
-[image]()
+[image](https://techacute.com/wp-content/uploads/2021/03/Your-ID-on-your-phone-with-VerifiID.jpg)
 ## Introduction
 - [```OpenVINO```](https://docs.openvino.ai/2023.1/home.html) toolkit (yoki Intel Distribution of ```OpenVINO``` Toolkit) - bu dasturchilarga turli xil video tizimlarda foydalanish uchun yuqori samarali yechimlarni ishlab chiqishni tezlashtirishga yordam beradigan ochiq va bepul vositalar to'plami.
   * Computer Visionni to'liq qo'llab-quvvatlaydi
