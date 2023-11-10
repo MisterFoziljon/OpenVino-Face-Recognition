@@ -20,7 +20,6 @@
 ```cmd
 pip install openvino
 pip install opencv-python
-pip install
+pip install streamlit
 pip install scipy
-pip install 
 ```
