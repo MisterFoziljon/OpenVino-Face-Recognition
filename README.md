@@ -28,11 +28,12 @@ pip install scipy
 
 * OpenVino Core Components
 ```console
-C:\Users\user> mkdir "C:\Program Files (x86)\Intel"
-C:\Users\user> cd Downloads
-C:\Users\user> curl -L https://storage.openvinotoolkit.org/repositories/openvino/packages/2023.1/windows/w_openvino_toolkit_windows_2023.1.0.12185.47b736f63ed_x86_64.zip --output openvino_2023.1.0.zip
-C:\Users\user> tar -xf openvino_2023.1.0.zip
-C:\Users\user> ren w_openvino_toolkit_windows_2023.1.0.10926.b4452d56304_x86_64 openvino_2023.1.0
-C:\Users\user> move openvino_2023.1.0 "C:\Program Files (x86)\Intel"
-C:\Users\user> cd "C:\Program Files (x86)\Intel\openvino_2023.1.0"
+cd C:\Users\<YOUR_USERNAME>
+mkdir "C:\Program Files (x86)\Intel"
+cd Downloads
+curl -L https://storage.openvinotoolkit.org/repositories/openvino/packages/2023.1/windows/w_openvino_toolkit_windows_2023.1.0.12185.47b736f63ed_x86_64.zip --output openvino_2023.1.0.zip
+tar -xf openvino_2023.1.0.zip
+ren w_openvino_toolkit_windows_2023.1.0.10926.b4452d56304_x86_64 openvino_2023.1.0
+move openvino_2023.1.0 "C:\Program Files (x86)\Intel"
+cd "C:\Program Files (x86)\Intel\openvino_2023.1.0"
 ```
