@@ -38,4 +38,5 @@ tar -xf openvino_2023.1.0.zip
 ren w_openvino_toolkit_windows_2023.1.0.10926.b4452d56304_x86_64 openvino_2023.1.0
 move openvino_2023.1.0 "C:\Program Files (x86)\Intel"
 cd "C:\Program Files (x86)\Intel\openvino_2023.1.0"
+call setupvars.bat
 ```
