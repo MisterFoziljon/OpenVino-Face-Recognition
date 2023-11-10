@@ -17,6 +17,7 @@
    - Face Reidentificaton
 
 ## Requirements
+* Microsoft Visual Studio 
 ```cmd
 pip install openvino
 pip install opencv-python
