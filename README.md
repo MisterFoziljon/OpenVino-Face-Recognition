@@ -11,7 +11,16 @@
 ## Main
 * Face Recognition - bu shaxslarni yuz xususiyatlariga qarab aniqlash yoki tekshirishni o'z ichiga olgan texnologiya. Bu biometrik identifikatsiyaning bir shakli bo'lib, unda shaxs yuzining o'ziga xos xususiyatlari tahlil qilinadi va autentifikatsiya yoki identifikatsiya qilish uchun foydalaniladi. Yuzni tanib olishdan asosiy maqsad - odamlarning yuz xususiyatlarini ma'lum yuzlar ma'lumotlar bazasi bilan solishtirish orqali aniqlashdir.
 
-* ```Open Vino``` yordamida Face Recognition texnologiyasidan foydalanish mumkin. Buning uchun quydagi texnologiyalardan foydalaniladi:
+* ```Open Vino``` yordamida Face Recognition texnologiyasidan foydalanish mumkin. Bunda quyidagi texnologiyalar qo'llaniladi:
    - Face Detection
    - Face Landmarks Detection
    - Face Reidentificaton
+
+## Requirements
+```cmd
+pip install openvino
+pip install opencv-python
+pip install
+pip install scipy
+pip install 
+```
