@@ -1,5 +1,5 @@
 # OpenVino-Face-Recognition
-
+![image](https://github.com/MisterFoziljon/OpenVino-Face-Recognition/blob/main/source/openvino.png)
 ## Introduction
 - [```OpenVINO```](https://docs.openvino.ai/2023.1/home.html) toolkit (yoki Intel Distribution of ```OpenVINO``` Toolkit) - bu dasturchilarga turli xil video tizimlarda foydalanish uchun yuqori samarali yechimlarni ishlab chiqishni tezlashtirishga yordam beradigan ochiq va bepul vositalar to'plami.
   * Computer Visionni to'liq qo'llab-quvvatlaydi
@@ -15,6 +15,8 @@
    - Face Detection
    - Face Landmarks Detection
    - Face Reidentificaton
+![image](https://github.com/MisterFoziljon/OpenVino-Face-Recognition/blob/main/source/face.jpg)
+
 
 ## Requirements
 * Microsoft Visual Studio 2022
@@ -33,4 +35,10 @@ tar -xf openvino_2023.1.0.zip
 ren w_openvino_toolkit_windows_2023.1.0.10926.b4452d56304_x86_64 openvino_2023.1.0
 move openvino_2023.1.0 "C:\Program Files (x86)\Intel"
 cd "C:\Program Files (x86)\Intel\openvino_2023.1.0"
+call setupvars.bat
+```
+
+## Usage
+```python
+streamlit run deploy.py
 ```
