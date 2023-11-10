@@ -20,10 +20,7 @@
 * Microsoft Visual Studio 2022
 * Python 3.7 - 3.11 (64-bit)
 ```cmd
-pip install openvino
-pip install opencv-python
-pip install streamlit
-pip install scipy
+pip install -r requirements.txt
 ```
 
 * OpenVino Core Components
