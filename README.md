@@ -5,4 +5,5 @@
   * Computer Visionni to'liq qo'llab-quvvatlaydi
   * Deep Learning algoritmlarini qo'llashni soddalashtiradi
   * Bir nechta Intel platformalarida oson bajarish imkonini beradi.
+    
 - ```OpenVINO``` turli xil muammolarni, jumladan Face Detection, Automatic Object Recognition, Text and Speech Recognition, Image Processing va boshqalar bilan ishlashda qo'l keladi.
