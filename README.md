@@ -40,3 +40,8 @@ move openvino_2023.1.0 "C:\Program Files (x86)\Intel"
 cd "C:\Program Files (x86)\Intel\openvino_2023.1.0"
 call setupvars.bat
 ```
+
+## Usage
+```python
+streamlit run deploy.py
+```
