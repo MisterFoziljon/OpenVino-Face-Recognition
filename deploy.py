@@ -99,7 +99,7 @@ class Recognition:
         return frame
 
     def use_camera(self, api):
-        cap = open_images_capture(api, False)
+        cap = cv2.imshow(api)
         frame_processor = Frame_Processor()
         FRAME_WINDOW = st.image([])
 
@@ -107,7 +107,7 @@ class Recognition:
         presenter = None
         output_transform = None
         input_crop = None
-            
+        
         while True:
             start_time = perf_counter()
             frame = cap.read()
@@ -143,8 +143,7 @@ def main():
         rtsp = st.text_input("port: ",placeholder="554")
 
         if st.button("start"):
-            api = f"rtsp://admin:AEZAKMI12@192.168.0.102:554/h264/ch1/main/av_stream"
-            #api = f"rtsp://{user}:{password}@{ip}:{rtsp}/h264/ch1/main/av_stream"
+            api = f"rtsp://{user}:{password}@{ip}:{rtsp}/h264/ch1/main/av_stream"
 
     if api:
         recognition.use_camera(api)
