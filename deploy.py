@@ -53,21 +53,6 @@ class Frame_Processor():
         landmarks = self.landmarks_detector.infer((frame, rois))
         face_identities, unknowns = self.face_identifier.infer((frame, rois, landmarks))
 
-        
-        if False and len(unknowns) > 0:
-            for i in unknowns:
-                if rois[i].position[0] == 0.0 or rois[i].position[1] == 0.0 or \
-                    (rois[i].position[0] + rois[i].size[0] > orig_image.shape[1]) or \
-                    (rois[i].position[1] + rois[i].size[1] > orig_image.shape[0]):
-                    continue
-
-                crop_image = crop(orig_image, rois[i])
-                name = self.faces_database.ask_to_save(crop_image)
-                
-                if name:
-                    id = self.faces_database.dump_faces(crop_image, face_identities[i].descriptor, name)
-                    face_identities[i].id = id
-
         return [rois, landmarks, face_identities]
 
 
