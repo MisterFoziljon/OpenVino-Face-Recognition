@@ -84,7 +84,8 @@ class Recognition:
         return frame
 
     def use_camera(self, api):
-        cap = cv2.imshow(api)
+        
+        cap = cv2.VideoCapture(api)
         frame_processor = Frame_Processor()
         FRAME_WINDOW = st.image([])
 
@@ -92,10 +93,10 @@ class Recognition:
         presenter = None
         output_transform = None
         input_crop = None
-        
+            
         while True:
             start_time = perf_counter()
-            frame = cap.read()
+            ret, frame = cap.read()
             frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
 
             output_resolution = (3*frame.shape[1]/4, 3*frame.shape[0]/4)
