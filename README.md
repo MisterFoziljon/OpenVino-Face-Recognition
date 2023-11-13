@@ -56,3 +56,9 @@ call setupvars.bat
 ```python
 streamlit run deploy.py
 ```
+
+## Example
+<video controls autoplay>
+  <source src="source/video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
