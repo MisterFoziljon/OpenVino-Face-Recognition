@@ -41,7 +41,7 @@ cd "C:\Program Files (x86)\Intel\openvino_2023.1.0"
 call setupvars.bat
 ```
 
-* Data
+## Data
   - yuzlarni tanib olish uchun ilova yuzlar bazasi va galereyadan foydalanadi. ```data``` - odamlar tasvirlari bo'lgan folder.
   - ```data``` nomli folder yarating. Ushbu folderdagi tasvirlar istalgan o'lchamda bo'lishi mumkin.
   - Tasvirlar bir yoki bir nechta old tomonga yo'naltirilgan sifatli yuzlarni o'z ichiga olgan bo'lishi kerak.
